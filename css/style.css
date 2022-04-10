@@ -1,6 +1,44 @@
 body{
-    background-color: hsl(0, 0%, 100%);
+    /* background-color: hsl(0, 0%, 100%); */
+    background-color: darkgray;
+    /* box-sizing: border-box; */
 }
 .wrapper{
     display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    width: 100%;
+    border: 5px solid brown;
+    flex-wrap: wrap;
+}
+.box{
+    height: 300px;
+    max-width: 700px;
+    flex-grow: 1;
+}
+.flex-container{
+    background-color:  hsl(300, 43%, 22%);
+
+ 
+
+  
+}
+.test{
+    justify-content: space-between;
+}
+.test-1{
+
+    height: 200px;
+    width: 600px;
+    border: 2px solid yellow;
+
+}
+.test-2{
+    height: 300px;
+    width: 300px;
+}
+.test-3{
+    height: 300px;
+    width: 300px;
 }
