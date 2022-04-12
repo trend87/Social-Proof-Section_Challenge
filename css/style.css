@@ -26,6 +26,7 @@ body{
     width: 30%;
     left: 0;
     top: 0;
+    z-index: -1;
 
 }
 .box{
@@ -41,7 +42,6 @@ body{
 
 }
 .flex-container{
-    background-color: hsl(0, 0%, 100%);
     color:  hsl(300, 43%, 22%);
     padding: 50px 0 0 80px;
     /* border: 4px solid red; */
@@ -82,12 +82,18 @@ body{
       color: hsl(300, 43%, 22%);
       font-weight: bold;
   }
+  .comment-section{
+      display: flex;
+      width: 100%;
+      height: 220px;
+      margin-left: 70px;
+  }
 .comment-box{
     /* padding-inline: 20px; */
-    margin: 30px;
+    margin: 10px 20px;
     height: 200px;
-    width: 400px;
-    padding: 50px;
+    width: 350px;
+    padding: 30px 30px;
     color:  hsl(0, 0%, 100%);
     background-color: hsl(300, 43%, 22%);
 }
@@ -95,7 +101,7 @@ body{
 
     /* height: 200px;
     width: 300px; */
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     border-radius: 10px;
     
 
@@ -104,20 +110,26 @@ body{
    
     /* height: 200px;
     width: 300px; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 10px;
+    margin-top: 30px;
+
 }
 .test-3{
     
     /* height: 200px;
     width: 300px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 10px;
+    margin-top: 60px;
+
 }
-/* .img{
-    max-width: 100%;
-    max-height: 100%;
-} */
+.avatar{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
 .pattern-bottom{
     bottom:0;
     right:0;
@@ -125,4 +137,5 @@ body{
     width: 80%;
     /* width: inherit; */
     position: absolute;
+    z-index: -1;
 }
