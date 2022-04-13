@@ -138,3 +138,10 @@ body{
     position: absolute;
     z-index: -1;
 }
+
+ /* CSS style for mobile */
+
+ @media screen and (width:600px){
+     
+
+ }
