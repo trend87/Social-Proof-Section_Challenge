@@ -141,7 +141,60 @@ body{
 
  /* CSS style for mobile */
 
- @media screen and (width:600px){
-     
+ @media screen and (max-width:600px){
+    .wrapper{
+        position: relative;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+       flex-wrap: wrap;
+        /* padding-inline: 50px;
+        padding-top: 10px; */
+        border: 2px solid blue;
+    }
+    .pattern-top{
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    
+    }
+    .pattern-bottom{
+        display: none;
+    }
+    .box h1{
+        font-family: 'League Spartan', sans-serif;
+        font-size:50px ;
+        text-align: center;
+        padding:0;
+    
+    }
+    .flex-container p{
+        color:  hsl(303, 10%, 53%);
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        max-width: inherit;
+        border: 2px solid red;
+    }
+    .mini-box{
+        margin-left: 0;
+        height: 80px;
+        width: 500px;
+
+    }
+    .mini-one {
+        margin-left: 0;
+    }
+    .mini-two{
+        margin-left: 0;
+    }
+    .box-text{
+        display: block;
+        text-align: center;
+    }
 
  }
