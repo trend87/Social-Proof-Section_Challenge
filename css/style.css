@@ -81,6 +81,7 @@ body{
   .box-text{
       color: hsl(300, 43%, 22%);
       font-weight: bold;
+      margin-left: 25px;
   }
   .comment-section{
       display: flex;
@@ -151,7 +152,6 @@ body{
        flex-wrap: wrap;
         /* padding-inline: 50px;
         padding-top: 10px; */
-        border: 2px solid blue;
     }
     .pattern-top{
         position: absolute;
@@ -191,6 +191,13 @@ body{
     }
     .mini-two{
         margin-left: 0;
+    }
+    .checked{
+        margin-left: 300px;
+        margin: 0 auto;
+        padding: 3px;
+        align-items: center;
+        justify-content: center;
     }
     .box-text{
         display: block;
